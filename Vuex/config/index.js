@@ -24,7 +24,7 @@ module.exports = {
   dev: {
     env: require('./dev.env'),
     host:"127.0.0.1",
-    port: 7080,
+    port: 4080,
     assetsSubDirectory: 'static',
 
     assetsPublicPath: '/',
@@ -32,7 +32,7 @@ module.exports = {
       '/api': {
         //target: 'http://192.168.11.237:8082', //dev
         // target: 'http://192.168.12.173:5522', //dev Local
-        target: 'http://47.97.114.251:7080', //sit
+        // target: 'http://47.97.114.251:7080', //sit
         changeOrigin: true,
         //pathRewrite: {
         //  '^/api': ''
